@@ -1,0 +1,43 @@
+.header {
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+}
+  
+.left-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}  
+  
+.logo {
+    width: 200px;
+    height: 80px;
+    margin: 5px 3px 2px;
+}
+
+.right-section {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+button {
+    border: none;
+    background-color: white;
+    margin-right: 5px;
+}
+
