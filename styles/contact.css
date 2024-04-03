@@ -1,0 +1,93 @@
+.contact {
+    margin: auto;
+    text-align: center;
+    padding: 100px 0px;
+    width: 80%;
+    text-align: left;
+}
+
+.contact-box {
+    display: flex;
+}
+
+.contact-left {
+    background-color: rgb(0,171,214,255);
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: rgb(20,108,138);
+}   
+
+
+p {
+    margin-bottom: 30px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: rgb(20,108,138);
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
+
+}
+
+.contact-left h3 {
+   margin-bottom: 40px;
+   color: white;
+}
+
+.contact-right h3 {
+    margin-bottom: 40px;
+    color: white;
+}
+
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+    text-align: left;
+    color: white;
+}
