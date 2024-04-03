@@ -1,3 +1,18 @@
 .about {
-    
+    margin: auto;
+    text-align: center;
+    padding: 100px 0px;
 }
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
