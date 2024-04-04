@@ -2,19 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2%, 6%;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 255);
+    height: 80px;
 }
 
 .logo-img {
-    width: 180px;
-    height: 70px;
-    margin: 5px 3px 2px;
+    width: 220px;
+    margin-top: 5px
 }
 
 .nav-links {
     flex: 1;
     text-align: right;
+    margin-bottom: 15px;
+    
 }
 
 .nav-links ul li {

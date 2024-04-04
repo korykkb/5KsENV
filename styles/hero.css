@@ -2,11 +2,15 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(
-    rgba(4,9,30,0.7), rgba(4,9,30,0.7)),
+    rgba(4,9,30,0.4), rgba(4,9,30,0.4)),
     url(/images/hero.webp);
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+span {
+  font-size: 30px;
 }
 
 .hero-textbox {
@@ -39,7 +43,8 @@
 
 .hero-btn:hover {
   border: 1px solid white;
-  background: rgb(10, 127, 237);
+  background: rgb(20,108,138);
   transition: 0.5s;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
 }
 
