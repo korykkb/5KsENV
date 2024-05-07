@@ -2,7 +2,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(
-    rgba(4,9,30,0.4), rgba(4,9,30,0.4)),
+    rgba(4,9,30,0.6), rgba(4,9,30,0.6)),
     url(/images/hero.webp);
   background-position: center;
   background-size: cover;
@@ -24,21 +24,24 @@ span {
 
 .hero-textbox h1 {
   font-size: 60px;
-
+  margin: 0;
 }
 
-.hero-textbox p {
-  margin: 10px 0 40px;
-  font-size: 14px;
+.hero-textbox h2 {
+  margin-bottom: 50px;
+  font-weight: 800;
 }
 
 .hero-btn {
+  font-weight: 600;
   color: white;
   text-decoration: none;
-  border: 1px solid grey;
+  border: 2px solid white;
   padding: 12px 34px;
   font-size: 13px;
   cursor: pointer;
+  border-radius: 10px;
+  transition: 0.4s ease;
 }
 
 .hero-btn:hover {
@@ -46,5 +49,6 @@ span {
   background: rgb(20,108,138);
   transition: 0.5s;
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+  
 }
 

@@ -6,6 +6,33 @@
     background-color: lightgrey;
 }
 
+.services-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 450px);
+    grid-template-rows: repeat(2, 450px);
+    grid-auto-rows: 450px;
+    gap: 20px;
+}
+
+.service-1 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    background-color: aqua;
+}
+
+.service-2 {
+    background-color: palegoldenrod
+}
+
+.service-3 {
+    background-color:blueviolet;
+}
+
+.service-4 {
+    background-color: greenyellow;
+}
+
 h1 {
     font-size: 36px;
     font-weight: 600;

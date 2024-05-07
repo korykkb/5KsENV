@@ -16,4 +16,11 @@ p {
     padding: 10px;
 }
 
+.about img {
+    position: absolute;
+    z-index: 100;
+    left: -20px;
+    width: 100px;
+}
+
 
