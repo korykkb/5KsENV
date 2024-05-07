@@ -6,12 +6,7 @@
     background-color: rgb(20,108,138);
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
-
-p {
+.testimonials p {
     font-size: 14px;
     line-height: 22px;
     padding: 10px;
