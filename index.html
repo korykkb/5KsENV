@@ -17,21 +17,40 @@
     <link rel="stylesheet" href="styles/footer.css">
 
     <script src="https://kit.fontawesome.com/767f14acaa.js" crossorigin="anonymous"></script>
+
+    <script defer src="index.js"></script>
   </head>
   <body>
     <section class="header">
       <a href="index.html"><img class="logo-img" src="images/logo.png" alt="logo"></a>
       <div class="nav-links">
-        <i class="fa fa-times"></i>
-          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT ME</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">TESTIMONIALS</a></li>
-            <li><a href="">CONTACT</a></li>
-          </ul>
+        <ul>
+          <li class="hide-top-bar">
+            <a href="#home">HOME</a>
+          </li>
+          <li class="hide-top-bar">
+            <a href="#services">SERVICES</a>
+          </li>
+          <li class="hide-top-bar">
+            <a href="#about-me">ABOUT ME</a>
+          </li>
+          <li class="hide-top-bar">
+            <a href="#testimonials">TESTIMONIALS</a>
+          </li>
+          <li class="hide-top-bar">
+            <a href="#contact">CONTACT</a>
+          </li>
+          <i class="js-bars fa-solid fa-bars"></i>
+        </ul>
+        <ul class="sidebar">
+          <i class="js-x fa-solid fa-x"></i>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#about-me">ABOUT ME</a></li>
+          <li><a href="#testimonials">TESTIMONIALS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
       </div>
-      <i class="fa fa-bars"></i>
     </section>
 
     <section class="hero">
@@ -142,14 +161,14 @@
           </div>
           <div class="contact-info">
             <div class="option">
+              <i class="fa-regular fa-envelope"></i>
+              <h4>karlbromwell@gmail.com</h4>
+            </div>
+            <div class="option option1">
               <i class="fa-solid fa-location-dot"></i>
               <h4>Honolulu, HI <br>
                   United States
               </h4>
-            </div>
-            <div class="option">
-              <i class="fa-regular fa-envelope"></i>
-              <h4>karlbromwell@gmail.com</h4>
             </div>
             <div class="option">
               <i class="fa-solid fa-phone-volume"></i>

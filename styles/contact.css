@@ -99,8 +99,8 @@ tr td {
 }
 
 .contact-info {
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);;
-    margin-left: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    padding: 0 20px;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -120,4 +120,55 @@ tr td {
 .contact i {
     font-size: 40px;
     text-shadow: 0px 10px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media(width <= 1000px) {
+    .contact .main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .contact-info h4 {
+        font-size: 16px;
+    }
+
+    .contact-info i {
+        font-size: 34px;
+    }
+
+    .contact-info .option1 {
+        margin-top: 30px;
+    }
+
+    .contact-box {
+        width: 100%;
+    }
+}
+
+@media(width <= 869px) {
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 325px;
+        margin: 20px 0 40px 0;
+        padding-top: 15px;
+    }
+
+    .contact-info .option1 {
+        margin: 0;
+    }
 }
