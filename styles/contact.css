@@ -5,6 +5,11 @@
     text-align: left;
 }
 
+.contact .container {
+    width: 80%;
+    margin: auto;
+}
+
 .contact .main {
     display: flex;
     justify-content: space-between;
@@ -156,7 +161,7 @@ tr td {
     }
 }
 
-@media(width <= 869px) {
+@media(width <= 725px) {
     .contact-info {
         display: flex;
         flex-direction: column;
