@@ -3,7 +3,7 @@
   width: 100%;
   background-image: linear-gradient(
     rgba(4,9,30,0.6), rgba(4,9,30,0.6)),
-    url("../images/hero.webp");
+    url("../images/hero.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -32,7 +32,7 @@ span {
   font-weight: 800;
 }
 
-.hero-btn {
+.contact-btn {
   font-weight: 600;
   color: white;
   text-decoration: none;
@@ -44,7 +44,7 @@ span {
   transition: 0.4s ease;
 }
 
-.hero-btn:hover {
+.contact-btn:hover {
   border: 1px solid white;
   background: rgb(20,108,138);
   transition: 0.5s;

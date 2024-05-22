@@ -1,36 +1,8 @@
 .services {
-    margin: auto;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 100px;
     background-color: lightgrey;
-}
-
-.services-grid {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, 450px);
-    grid-template-rows: repeat(2, 450px);
-    grid-auto-rows: 450px;
-    gap: 20px;
-}
-
-.service-1 {
-    grid-row: 1 / 1;
-    grid-column: 1 / 1;
-    background-color: aqua;
-}
-
-.service-2 {
-    background-color: palegoldenrod
-}
-
-.service-3 {
-    background-color:blueviolet;
-}
-
-.service-4 {
-    background-color: greenyellow;
 }
 
 .services p {
@@ -39,21 +11,57 @@
     padding: 10px;
 }
 
-.services-row {
-    display: flex;
-    justify-content: space-between;
+.services .grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 550px);
+    grid-template-rows: repeat(2, 550px);
+    grid-auto-rows: 500px;
+    gap: 20px;
+    margin: 0;
 }
 
-.services-column {
-    background-color: rgb(0,171,214,255);
-    /*background-color: rgb(20,108,138);
-    */
-    border-radius: 10px;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    margin: 0px 10px;
-    transition: 0.5s;
+.service {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+.service-container {
+    width: 100%;
+    height: 100%
+}
+
+.service-front {
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 88.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    background-color: rgb(0 0 0 / 76%);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.service-front:hover  {
+    opacity: 1;  
+}
+
+.service img {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease;
+}
+
 
 .services-column:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
